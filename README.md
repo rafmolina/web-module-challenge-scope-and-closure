@@ -42,6 +42,8 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+It is when a function is nested into another function, like Parent-child.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,8 +65,14 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+its on line 51, where one function is nested into another.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+the name rolled a would always be the same, the change would be the number being generated
+
 c. What is the lexical scope of `newRoll`? 
+it is the function personalDice, being called/declared before the roll. 
+
 
 ### Task 2c - Exit Ticket
 
